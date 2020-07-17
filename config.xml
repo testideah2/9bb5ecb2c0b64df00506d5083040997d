@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.husmutbot.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. husmutbot.ru</name>
+    <name>ТЕСТ. HusmutBot</name>
 
     <description>
         HusmutBot - Discord бот
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#39D0D6" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -47,10 +47,10 @@
         <icon src="res/android/icon/9543d86fce273920df9259c810fd7f36.png" density="xxhdpi" />
         <icon src="res/android/icon/56fc83099ebe76413eb1156bffcc5c7a.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/ae6e651fa050a07ff82380778f4c936a.png" density="port-hdpi"/>
-        <splash src="res/android/screen/cb179ee6b3e77f3d92635ec80a3407a7.png" density="port-ldpi"/>
-        <splash src="res/android/screen/8be349bbc3fb0680d24d1de9f7fe588a.png" density="port-mdpi"/>
-        <splash src="res/android/screen/e0ca34569c22073d39d7ae319b0ea93c.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/a5bce337f91649a16db8a18a7e224b40.png" density="port-hdpi"/>
+        <splash src="res/android/screen/1ccc946a821dd83bada34d8a4249301d.png" density="port-ldpi"/>
+        <splash src="res/android/screen/f8bc4086365cc07c508afcc7bb6bda3a.png" density="port-mdpi"/>
+        <splash src="res/android/screen/a92fabb5ec3caa630aa939df7c42813d.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
@@ -69,12 +69,12 @@
         <icon src="res/ios/icon/6b612e9f40092b98426bf280b920ca70.png" width="87" height="87" />
         <icon src="res/ios/icon/46d43ada8bebd0e27ce24327652674cd.png" width="167" height="167" />
 
-        <splash src="res/ios/screen/ea28919977bdbc9ac7b403b760cfc12f.png" />
-        <splash src="res/ios/screen/b4aee4918491da2c6e8e4a395831916d.png" />
-        <splash src="res/ios/screen/39090cb270bd227471a600b64cf9c20d.png" />
-        <splash src="res/ios/screen/6601df0c16d5430c2a654a32c784b931.png" />
-        <splash src="res/ios/screen/7432f442d522446849365ed2a558511f.png" />
-        <splash src="res/ios/screen/defb6f9fdf2e98d8b00aeecaeced86a5.png" />
+        <splash src="res/ios/screen/c4df2d97e1416e787abbf357143f21e9.png" />
+        <splash src="res/ios/screen/6e4576072821927a0f944ca5f8529fbb.png" />
+        <splash src="res/ios/screen/086e3be44ad5d81d783a07d6e85d48e7.png" />
+        <splash src="res/ios/screen/9f31cf3db1407d2c8035a0889a886bbe.png" />
+        <splash src="res/ios/screen/158e232827fbe5ae5ac23255a0a0b76a.png" />
+        <splash src="res/ios/screen/4e1c7fa632b262f1c4099f8ff254be5c.png" />
     </platform>
 
     <platform name="winphone">
@@ -86,8 +86,8 @@
         <icon src="res/windows/icon/6da200a6c5931c2dc65f0d1811aabe51.png" target="Square150x150Logo" />
         <icon src="res/windows/icon/237cf62d9ef4bdc28da02df9cf33e267.png" target="Square310x310Logo" />
 
-        <splash src="res/windows/screen/47febe049630781e60d7b40d569e651f.png" target="SplashScreen"/>
-        <splash src="res/windows/screen/584c6c3ddc1750a6d07c94105a6bb056.png" target="SplashScreenPhone"/>
+        <splash src="res/windows/screen/8d549f9fc1c840d764fc54d118458680.png" target="SplashScreen"/>
+        <splash src="res/windows/screen/79b3cd687a3f01ac1707b4740ceb4466.png" target="SplashScreenPhone"/>
     </platform>
 
     <access origin='*'/>
